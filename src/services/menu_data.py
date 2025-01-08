@@ -8,7 +8,7 @@ class MenuData:
     def __init__(self, source_path: str) -> None:
         self.dishes = set()
         self.ingredients = set()
-        self.load_menu_data(source_path)
+        self.load_menu(source_path)
 
     def load_menu(self, source_path: str) -> None:
         with open(source_path, newline='') as file:
