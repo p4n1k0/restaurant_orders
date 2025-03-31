@@ -24,10 +24,20 @@ class MenuBuilder:
 
         self.inventory.consume_recipe(curr_dish.recipe)
 
+    def validate_recipe_availability(self, recipe):
+        try:
+            if self.inventory.check_recipe_availability(recipe) is False:
+                return False
+            return True
+        except KeyError:
+            return False
+
     # Req 4
     def get_main_menu(self, restriction=None) -> pd.DataFrame:
         menu_data = []
         for dish in self.menu_data.dishes:
+            if self.validate_recipe_availability(dish.recipe) is False:
+                continue
             if restriction not in dish.get_restrictions():
                 menu_data.append({
                     'dish_name': dish.name,
