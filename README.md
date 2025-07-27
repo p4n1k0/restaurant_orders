@@ -7,7 +7,7 @@ Aqui você vai encontrar os detalhes de como foi estruturar o desenvolvimento do
 <details>
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary>
     <p>O Restaurante  🍝 🦐 Chapa Quente 🍛 🥘 precisa de você para finalizar sua ferramenta de construção de cardápios. O restaurante necessita desta ferramenta para que possa, de maneira simples, gerar seus cardápios considerando possíveis restrições alimentares e também a disponibilidade dos ingredientes em estoque. Hoje, a gestão das receitas e de estoque do restaurante acontece de forma muito ineficiente através de arquivos csv e, por essa razão, as pessoas fundadoras do estabelecimento desejam melhorar esta gestão.</p>
-    <p>Um primeiro time iniciou o desenvolvimento deste projeto e já preparou uma estrutura inicial para que você possa finalizar essa construção. Assim, ao longo deste projeto eu fui responsável por construir testes para classes já implementadas, implementei uma nova classe para mapear os pratos e suas respectivas receitas (ingredientes e quantidades), também implementei uma classe que gerará os cardápios que devem ser mostrados para as pessoas que frequentam o estabelecimento e outra que fará a gestão de estoque dos ingredientes.</p>
+    <p>Um primeiro time iniciou o desenvolvimento deste projeto e já preparou uma estrutura inicial para que eu finalize essa construção. Assim, ao longo deste projeto eu fui responsável por construir testes para classes já implementadas, implementei uma nova classe para mapear os pratos e suas respectivas receitas (ingredientes e quantidades), também implementei uma classe que gerará os cardápios que devem ser mostrados para as pessoas que frequentam o estabelecimento e outra que fará a gestão de estoque dos ingredientes.</p>
 
 🚵 Habilidades exercitadas: </br>
   - Praticar o conceito de `Hashmaps` através das estruturas de dados `Dict` e `Set`do Python; </br>
@@ -107,6 +107,7 @@ Aqui você vai encontrar os detalhes de como foi estruturar o desenvolvimento do
   ```bash
   pytest -x tests/nomedoarquivo.py::test_nome_do_teste
   ```
+Obs: Alguns testes foram desenvolvidos pelo time da trybe.
 
   Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse [artigo](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
 </details>
